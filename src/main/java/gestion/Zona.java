@@ -5,7 +5,7 @@ import zooAnimales.Animal;
 public class Zona {
     String nombre;
     Zoologico zoo;
-    Animal animales;
+    Animal[] animales;
 
     public Zona (String nombre, Zoologico zoo){
 
@@ -19,5 +19,10 @@ public class Zona {
     public Zoologico getZoo(){
         return zoo;
     }
+    public void agregarAnimales(Animal animal){
 
+    }
+    public int cantidadAnimales(){
+        return animales.length;
+    }
 }
